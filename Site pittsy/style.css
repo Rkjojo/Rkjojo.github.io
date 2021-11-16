@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Estonia&family=Open+Sans+Condensed:ital,wght@1,300&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+
+body{
+    margin: 0px auto;
+}
+
+h4{
+    font-family: 'Estonia', cursive;
+    text-transform: uppercase;
+}
+
+h2, h1, h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+
+
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ........................................NAVBAR...................................... */
+
+nav{
+    overflow: hidden;
+    background-color: rgb(251, 107, 107);
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    
+}
+
+header li{
+    float: right;
+    font-size: 1.2em;
+    
+}
+
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+#logo{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left;
+    font-size: 50px;
+}
+#contact{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+#presentation{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+/* ...................................IMAGE PRINCIPALE..................................... */
+
+#imagePrincipale{
+    padding-top: 500px;
+    background: url(media/ville.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+
+#h1imageP{
+    float: center;
+}
+
+
+/* .......................Présentation............................. */
+#presentationSection{
+    background-color: #FFFAE1;
+
+}
+#chienescalier{
+    height: 400px;
+}
+#chienherbe2{
+    height: 400px;
+}
+#chienlaisseville{
+    height: 400px;
+}
+#chienville{
+    height: 400px;
+}
+
+#imagepresentation{
+    display: flex;
+    justify-content: space-between;
+}
+
